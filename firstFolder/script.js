@@ -9,5 +9,9 @@
 //  making it possible for developers to use JavaScript for 
 //  client-side and server-side code without needing to learn an additional language.
 
+// Run Code Command
+
+// node ./script  (file name which you want to run)
+
 var a = 10;
 module.exports =a;
