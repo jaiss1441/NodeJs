@@ -85,9 +85,22 @@ Point 4 : Nodemon
 
 
 Point 5 : Middelware 
-        Rout chalne se pehele jo calta hai use middleware khete hai 
+        Rout chalne se pehele jo (code) calta hai use middleware khete hai 
+        we can write as many middleware to pushforword next() is used in middleware 
 
         Use Case :
                  How Many time user visit the site incresing count in this case middleware can be useful
         eg :
-           
+                const express = require('express')
+                const app = express()
+
+                app.use(function(req,res,next){
+                console.log("Count incresing ");
+                next();
+                });
+
+                app.get('/',function(req,res){
+                res.send("Hello  vikas")
+                })
+
+                app.listen(3000)
