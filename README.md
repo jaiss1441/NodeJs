@@ -25,11 +25,11 @@ Learning NodeJS
          git clone "project link"
 
 
-Step 1 : Run Code Command
+Point 1 : Run Code Command
 
          node ./script  (file name which you want to run)
 
-Step 2 : NPM (Commands)
+Point 2 : NPM (Commands)
 
         NPM : node package Maneger
 
@@ -50,6 +50,28 @@ Step 2 : NPM (Commands)
                     }
                     console.log(data);
                     });
+
+Point 3 : Express
+
+        Express is framwork for nodeJs use for routing on diff pages
+
+        Routing => redirecting to diff pages means routing 
+
+        Routing in Node refers to the process of determining how an application responds to client requests to different endpoints (URLs). In a web application, these endpoints typically correspond to different pages or functionalities within the application.
+
+        Types Of Routing : GET POST DELETE PATCH 
+            Static Routing.
+            Default Routing.
+            Dynamic Routing.
+
+        eg. 
+        const express = require('express')
+        const app = express()
+
+        app.get('/',function(req,res){  // requesting via get method with function with two parameter (request and response )default rout is '/' 
+        res.send('Hello Jias')  //sending response 
+        })
+        app.listen(3000)   //Running on port no 3000 by  using app.listen() function
 
 
 
