@@ -13,8 +13,21 @@ Learning NodeJS
   making it possible for developers to use JavaScript for 
   client-side and server-side code without needing to learn an additional language.
 
+  Git GitHub used also
+         
+         git add .
+         git commit -m "comment"
+         git push origin main
+         git status 
+         git config --global user.name ""
+         git config --global user.email ""
+         git donfig --list
+         git clone "project link"
+
+
 Step 1 : Run Code Command
 
          node ./script  (file name which you want to run)
 
-         
+
+
