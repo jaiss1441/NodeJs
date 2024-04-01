@@ -29,5 +29,28 @@ Step 1 : Run Code Command
 
          node ./script  (file name which you want to run)
 
+Step 2 : NPM (Commands)
+
+        NPM : node package Maneger
+
+        In NPM we can get diffrent kind of packages/features which is build by someone
+
+        Installing Pakages 
+
+        npm insarll/i (that package name)
+                eg. npm i figlet 
+
+        Useage of package specify on that site
+                eg. var figlet = require("figlet");
+                    figlet("Hello World!!", function (err, data) {
+                    if (err) {
+                        console.log("Something went wrong...");
+                        console.dir(err);
+                        return;
+                    }
+                    console.log(data);
+                    });
+
+
 
 
