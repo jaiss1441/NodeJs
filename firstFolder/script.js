@@ -8,3 +8,6 @@
 //  Node is used extensively for server-side programming, 
 //  making it possible for developers to use JavaScript for 
 //  client-side and server-side code without needing to learn an additional language.
+
+var a = 10;
+module.exports =a;
