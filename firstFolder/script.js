@@ -14,10 +14,28 @@
 
 //eXPRESS
 
+// const express = require('express')
+// const app = express()
+
+// // app.get('/',function(req,res){
+// //     res.send("Hello  Jais")
+// // })
+
+// app.get('/profile',function(req,res){
+//     res.send("Hello Profile")
+// })
+
+// app.listen(4000)
 const express = require('express')
 const app = express()
 
+app.use(function(req,res,next){
+    console.log("Count incresing ");
+    next();
+});
+
 app.get('/',function(req,res){
-    res.send('Hello Jias')
+    res.send("Hello  vikas")
 })
+
 app.listen(3000)

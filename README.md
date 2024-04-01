@@ -57,7 +57,8 @@ Point 3 : Express
 
         Routing => redirecting to diff pages means routing 
 
-        Routing in Node refers to the process of determining how an application responds to client requests to different endpoints (URLs). In a web application, these endpoints typically correspond to different pages or functionalities within the application.
+        Routing in Node refers to the process of determining how an application responds to client
+        requests to different endpoints (URLs). In a web application, these endpoints typically correspond to different pages or functionalities within the application.
 
         Types Of Routing : GET POST DELETE PATCH 
             Static Routing.
@@ -73,6 +74,20 @@ Point 3 : Express
         })
         app.listen(3000)   //Running on port no 3000 by  using app.listen() function
 
+Point 4 : Nodemon
+        npm i nodemon -g //for installing nodemon package 
+        after istallation if it show error them when you try to run(nodemon .\script.js ) file at that time put npx (npx nodemon .\script.js )
+
+        Nodemon Package help us to automatically restart server whenever changes made in file
+
+        commands :
+        npx nodemone .\script.js (fileName)
 
 
+Point 5 : Middelware 
+        Rout chalne se pehele jo calta hai use middleware khete hai 
 
+        Use Case :
+                 How Many time user visit the site incresing count in this case middleware can be useful
+        eg :
+           
