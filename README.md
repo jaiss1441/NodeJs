@@ -104,3 +104,17 @@ Point 5 : Middelware
                 })
 
                 app.listen(3000)
+
+Point 6 : Express Js+
+                Node is main body by with the help of Express we can easely write server code which is hard to wtrite with the help of Nodes HTTP function the main purpose of express it is adaptive and easy 
+
+          What is Express:
+                It is package mainly use for  routing 
+          Why use Express:
+                HTTP is difficult to use, Express makes this easier 
+          Routing:
+                Makeing Routs means routing 
+                Eg. /main
+                    /main/login
+                    /main/login/profile
+            
